@@ -1,0 +1,9 @@
+name: CI to Docker Hub Shakyo
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
